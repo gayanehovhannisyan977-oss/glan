@@ -68,6 +68,7 @@ class Teacher(Person):
 
 
 class Other(Person):
+
     def __init__(self, name, surname, e_mail, number, ID, salary, address, experience, passport_num, subject, position):
         super().__init__(name, surname, e_mail, number, ID, salary, address, experience, passport_num, subject)
         self.position=position
