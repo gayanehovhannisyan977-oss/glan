@@ -72,6 +72,7 @@ class Other(Person):
     def __init__(self, name, surname, e_mail, number, ID, salary, address, experience, passport_num, subject, position):
         super().__init__(name, surname, e_mail, number, ID, salary, address, experience, passport_num, subject)
         self.position=position
+
     def info(self):
         return f"ID-{self.ID}\nName-{self.name}\nSurname-{self.surname}\nE-Mail{self.e_mail}\nPhone Number-{self.number}\nAddress-{self.address}\nPasport Num-{self.passport_num}\nSalary-{self.salary}\nExperience-{self.experience}\nPostion-{self.position}\n"
     def add_info(self):
